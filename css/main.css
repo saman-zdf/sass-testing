@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+section {
+  background: aqua;
+}
+
+section h1 {
+  font-size: 60px;
+  -webkit-transition: color 350ms linear;
+  transition: color 350ms linear;
+}
+
+section h1:hover {
+  color: green;
+}
+
+section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3d5d38;
+}
+
+section p span {
+  color: red;
+}
+
+section .error {
+  color: red;
+}
+
+section .warning {
+  color: green;
+}
+
+section .success, section .error, section .warning {
+  border: 2px solid #333;
+  font-size: 30px;
+  font-weight: 30px;
+}
+/*# sourceMappingURL=main.css.map */

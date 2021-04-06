@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+section {
+  background: $section-bg;
+  h1 {
+    font-size: 60px;
+    transition: color 350ms linear;
+    &:hover {
+      color: $heading-hover;
+    }
+  }
+  p {
+    @include text-styling();
+    span {
+      color: $span-highlight;
+    }
+  }
+  .success {
+    @extend %msg-shared;
+  }
+  .error {
+    @extend %msg-shared;
+    color: red;
+  }
+  .warning {
+    @extend %msg-shared;
+    color: green;
+  }
+}

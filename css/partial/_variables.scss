@@ -1,0 +1,10 @@
+$section-bg: aqua;
+$heading-hover: green;
+$span-highlight: red;
+// mixini
+@mixin text-styling {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(61, 93, 56);
+}
